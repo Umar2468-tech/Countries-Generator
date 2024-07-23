@@ -1,0 +1,75 @@
+* {
+  font-family: "montserrat";
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgb(51, 51, 227);
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.637);
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+.container input {
+  padding: 7px 10px;
+  margin: 20px 50px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid blue;
+}
+.container button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font: normal;
+}
+
+.capital {
+  margin: 0px 30px;
+  font-size: 20px;
+  font-family: "montserrat";
+}
+
+.capital h2 {
+  font-size: 18px;
+  font-family: "montserrat";
+}
+
+.country h2 {
+  font-size: 18px;
+  margin: 0px 30px;
+}
+
+.country img {
+  height: 160px;
+  width: 300px;
+  margin: 0px 10px;
+}
+
+.continents {
+  font-size: 20px;
+  margin: 0px 30px;
+}
+
+.continents h2 {
+  font-size: 18px;
+  /* margin: 0px 10px; */
+}
+.currency h2 {
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+.currency {
+  margin: 0px 30px;
+}
